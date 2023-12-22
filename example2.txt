@@ -1,0 +1,2 @@
+Value of 0xFF= 255 decimal
+Value of 27 = 1b hexadecimal
