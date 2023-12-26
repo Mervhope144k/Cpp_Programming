@@ -5,10 +5,11 @@
 using namespace std;
 
 int main(){
-	cout << "Number" << "		" << "Square Root" << endl;
-	cout << " 4" << "		" << sqrt(4) << endl;
-	cout << "12.25" << "		" << sqrt(12.25) << endl;
-	cout << " 0.0121" << "		" << sqrt(0.0121) << endl;
+	double x1 = 4.0, x2 = 12.25, x3 = 0.0121;
+	cout << "\n	Number	\t Square Root" << endl;
+	cout <<"\n	" << x1 << "	\t " << sqrt(x1)
+	     <<"\n	" << x2 << "	\t " << sqrt(x2)
+	     <<"\n	" << x3 << "	\t " << sqrt(x3) << endl;
 
 	return 0;
 }
